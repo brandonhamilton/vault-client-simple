@@ -1,0 +1,7 @@
+cradle:
+  cabal:
+    - path: "src"
+      component: "lib:vault-client-simple"
+
+    - path: "test"
+      component: "vault-client-simple:test:vault-client-simple-test"
